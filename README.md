@@ -75,14 +75,14 @@
     </kbd>
 </p>
 
-## Why do you need a personal cloud?
+## Why do you need Personal Cloud?
 
 In 2020, the team noticed three important trends:
 - The cost of computing power and storage was decreasing fast.
 - A part of cloud computing was moving towards edge computing.
 - The issue of consumer data asset ownership and attribution had been ignored.
 
-Based on these trends, the team proposed a thought experiment internally: what if personal clouds were available for under $100 within the next five years? This personal cloud would provide a low-cost data collaboration solution as a personal data center, storing and managing data for creators and small organizations. A distributed collaborative computing network can be formed by personal servers located around the world. It could also control and connect all smart devices, providing cross-ecosystem local intelligent services.
+Based on these trends, the team proposed a thought experiment internally: what if personal clouds were available under $100 in next five years? This personal cloud would provide a low-cost data collaboration solution as a personal data center, storing and managing data for creators and small organizations. A distributed collaborative computing network can be formed by personal servers located around the world. It could also control and connect all smart devices, providing cross-ecosystem local intelligent services.
 
 Furthermore, the personal cloud could combine personal data to train personalized AI assistants. The idea is that this technology would be an effective way to solve the issue of consumer data asset ownership and attribution, as well as provide a more affordable and efficient computing solution for individuals and small organizations.
 
@@ -105,7 +105,7 @@ Furthermore, the personal cloud could combine personal data to train personalize
 
 ## Getting Started
 
-CasaOS fully supports ZimaBoard, Intel NUC, and Raspberry Pi. It also supports more computers and development boards and is fully compatible with Ubuntu, Debian, Raspberry Pi OS, and CentOS with one-line installation.
+CasaOS fully supports ZimaBoard, Intel NUC, and Raspberry Pi. Also, more computers and development boards and fully compatible with Ubuntu, Debian, Raspberry Pi OS, and CentOS with one-liner installation.
 
 ### Hardware Compatibility
 
@@ -115,12 +115,12 @@ CasaOS fully supports ZimaBoard, Intel NUC, and Raspberry Pi. It also supports m
 
 ### System Compatibility
 
-Official Support:
+Official Support
 - Debian 12 (✅ Tested, Recommended)
 - Ubuntu Server 20.04 (✅ Tested)
 - Raspberry Pi OS (✅ Tested)
 
-Community Support:
+Community Support
 - Elementary 6.1 (✅ Tested)
 - Armbian 22.04 (✅ Tested)
 - Alpine (🚧 Not Fully Tested Yet)
@@ -180,11 +180,11 @@ Before v0.3.3
 curl -fsSL https://get.icewhale.io/casaos-uninstall.sh | sudo bash
 ```
 
-## Community
+## Community 
 
 The word Casa comes from the Spanish word for "home". Project CasaOS originated as a pre-installed system for the crowdfunded product [ZimaBoard](https://www.zimaboard.com) on Kickstarter.
 
-After looking at many systems and software products on the market, the team found no server system designed for home scenarios.
+After looking at many systems and software on the market, the team found no server system designed for home scenarios, sadly true.
 
 So, we set out to build this open-source project to develop CasaOS with our own hands, everyone in the community, and you.
 
