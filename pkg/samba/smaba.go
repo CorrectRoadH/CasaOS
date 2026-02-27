@@ -17,6 +17,7 @@ import (
 	"github.com/hirochachacha/go-smb2"
 )
 
+// ConnectSambaService connects to the SMB service and validates the target share exists.
 func ConnectSambaService(host, port, username, password, directory string) error {
 	conn, err := net.Dial("tcp", host+":"+port)
 	if err != nil {
@@ -48,7 +49,7 @@ func ConnectSambaService(host, port, username, password, directory string) error
 	return errors.New("directory not found")
 }
 
-//get share name list
+// GetSambaSharesList returns the SMB share names available on the target host.
 func GetSambaSharesList(host, port, username, password string) ([]string, error) {
 	conn, err := net.Dial("tcp", host+":"+port)
 	if err != nil {
